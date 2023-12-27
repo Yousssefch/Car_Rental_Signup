@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.title {
+
+    padding: 10px;
+    font-family: "Poppins";
+    color: rgb(255, 255, 255);
+    
+}
+.navbar{
+    width: 100%;
+    background-color: rgb(46, 46, 46);
+    border-radius: 5px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+}
+.Maincontent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 85vh;
+    margin-top: 20px;
+}
+.signup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+.Desc {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+.blockcontainer{
+    padding: 10px;
+    margin: 10px;
+    height: 90%;
+    width: 400px;
+    border-radius: 20px;
+    
+    border-bottom-right-radius: 20px;
+    background-color: rgb(240, 240, 240);
+    font-family: "Poppins";
+    
+}
+.signTitle{
+}
+.SignContainer{
+    width: 100%;
+    text-align: center;
+}
+.inputContainer {
+    
+    display: flex;
+    justify-content: center;
+}
+.inputSpace {
+    border-radius: 10px;
+    border-width: 1px;
+    height: 3vh;
+    align-self: center;
+    width: 90%;
+    max-width: 450px;
+    background-color: rgb(255, 255, 255);
+    font-style: italic;
+    padding: 10px;
+}
+.filling{
+    display: flex;
+    flex-direction: row;
+
+}
+.FullName{
+    width: 100%;
+    margin-top: 10px;
+}
+.name{
+    font-size: 100%;
+    margin: 5px;
+    margin-left: 3vw;
+}
+.descContainer{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    font-family: "Poppins";
+    font-size: 80%;
+    flex-direction: column;
+    
+}
+.imag{
+    width: 70%;
+    max-width: 500px;
+    align-self: center;
+}
+.checkboxes{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.checkin{
+    width: 45%;
+    height: 6vh;
+    background-color: black;
+    font-family: "Poppins";
+    color: white;
+    margin-top: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+
+}
+.login{
+    width: 45%;
+    height: 6vh;
+    background-color: white;
+    font-family: "Poppins";
+    color: black;
+    margin-top: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    margin-top: 20px;
+}
